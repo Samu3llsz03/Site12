@@ -1,0 +1,67 @@
+body {
+    color: darkred;
+    background: black;
+    margin: 0px;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 100px;
+}
+
+/* código escondido */
+
+header {
+    border-bottom: solid 2px rgb(228, 42, 42);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(131, 15, 15);
+}
+
+/* código omitido */
+
+.chamada{
+   background: rgba(255, 252, 252, 0.596);
+   padding-bottom: 80px; 
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+}
+
+/* código omitido */
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 50px;
+}
+
+.categoria-videos img {
+          opacity: 0.5;     
+          height: 200px;
+} 
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(131, 15, 15);
+}
+
+.categoria h2{
+    color: rgb(131, 15, 15);
+}
+
